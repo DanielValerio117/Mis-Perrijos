@@ -272,6 +272,7 @@
         if (this.boxes.length) {
           if (this.disabled()) {
             this.resetStyle();
+
           } else {
             for (var i = 0; i < this.boxes.length; i++) {
               var box = this.boxes[i];
